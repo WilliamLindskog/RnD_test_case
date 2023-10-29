@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rnd-test-case"
+version = "0.1.0"
+description = "Test case for RnD work in TUM.ai"
+authors = ["WilliamLindskog <williamlindskog@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "rnd_test_case"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
